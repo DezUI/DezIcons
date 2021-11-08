@@ -4,7 +4,7 @@ Open source SVG icons library for DezUI.
 
 ## Getting started
 
-Comming soon
+Coming soon
 
 ### Installation
 

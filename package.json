@@ -1,11 +1,12 @@
 {
-	"name": "dezui-icon",
+	"name": "dezicon",
 	"version": "1.0.0",
-	"description": "Icons",
-	"main": "css/core.css",
+	"description": "Open source SVG icons library for DezUI",
+	"main": "css/dezicons.css",
 	"scripts": {
 		"start": "live-server --host=127.0.0.1 --port=3004 --wait=0",
-		"sass": "sass -w --no-source-map scss:css"
+		"sass": "sass -w --no-source-map scss:css",
+		"sass-min": "sass -w --no-source-map scss/dezicon.scss:css/dezicon.min.css --style=compressed"
 	},
 	"repository": {
 		"type": "git",
@@ -15,10 +16,7 @@
 		"icons",
 		"open-source"
 	],
-	"author": {
-		"founder": "Dzuhan Ramadhan <github@dezuhan>",
-		"contributors": []
-	},
+	"author": "Dzuhan Ramadhan <github@dezuhan>",
 	"license": "MIT",
 	"homepage": "https://dezuhan.github.io/dezui",
 	"community": {
