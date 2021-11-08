@@ -18,11 +18,9 @@ Checkout https://dezui.github.io/dezui for documentation and details
 DezUI/
 ├── index.html
 ├── css/
-│   └── core.css
-└── assets/
-	├── main.svg
-	├── main-w.svg
-	└── dotted.svg
+│   └── dezui-icon.css
+└── icons/
+	└── (icons).svg
 ```
 
 ## Getting started
